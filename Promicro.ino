@@ -21,13 +21,15 @@ const uint16_t button6 = 7;
 const uint16_t button7 = 8;
 const uint16_t button8 = 9;
 const uint16_t button9 = 10;
-const uint16_t button10 = 16; //14
-const uint16_t button11 = 15; //15
-const uint16_t button12 = 14; //16
-const uint16_t button13 = A0; //18
-const uint16_t button14 = A1; //19
-const uint16_t button15 = A2; //20
-const uint16_t button16 = A3; //21
+const uint16_t button10 = 14; 
+const uint16_t button11 = 15; 
+const uint16_t button12 = 16; 
+const uint16_t button13 = 18; //A0
+const uint16_t button14 = 19; //A1
+const uint16_t button15 = 20; //A2
+const uint16_t button16 = 21; //A3
+
+//note mapping
 
 const uint16_t buttons[NUM_BUTTONS] = {button1, button2, button3, button4, button5, button6, button7, button8, button9, button10, button11, button12, button13, button14, button15, button16};
 const byte notePitches[NUM_BUTTONS] = {pitchC2, pitchD2b, pitchD2, pitchE2b, pitchE2, pitchF2, pitchG2b, pitchG2, pitchA2b, pitchA2, pitchB2b, pitchB2, pitchC3, pitchD3b, pitchD3, pitchE3b};
